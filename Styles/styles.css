@@ -1,0 +1,52 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+
+}
+
+#main{
+    background-image: url("../images/img_1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    background-color: cadetblue;
+    color: whitesmoke;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+
+}
+
+
+a:link, a:visited {
+    background-color: lightslategray;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 7px 10px;
+    text-align: center;
+    display: inline-block;
+}
+a:hover, a:active {
+    background-color: teal;
+    color: lightblue;
+}
+
+#about{
+    background-color: cadetblue;
+}
+#about h1{
+    color: lightblue;
+    text-align: center;
+
+}
