@@ -11,6 +11,15 @@ body {
     background-size: cover;
 }
 
+#main h2{
+    text-align: center;
+    color: #0c6c6c;
+}
+#main p{
+    text-align: center;
+    color: #052e2e;
+}
+
 header {
     background-color: cadetblue;
     color: whitesmoke;
@@ -70,7 +79,6 @@ a:hover, a:active {
             background-color: #333;
         }
     }
-
         .dropdown .dropbtn {
             font-size: 16px;
             border: none;
@@ -110,4 +118,24 @@ a:hover, a:active {
         .dropdown:hover .dropdown-content {
             display: block;
         }
+}
+#services a:hover{
+    background-color: turquoise;
+}
+
+#contact{
+    background-color: #333333;
+}
+#contact a:hover{
+    background-color: blanchedalmond;
+    color: black;
+}
+#contact h1{
+    text-align: center;
+}
+#contact h2{
+    text-align: center;
+}
+#contact p{
+    text-align: center;
 }
